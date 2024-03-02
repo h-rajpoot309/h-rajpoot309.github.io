@@ -1,0 +1,159 @@
+/* styles.css */
+
+/* Basic syntax and selectors */
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ccdbd9;
+    padding: 20px;
+}
+
+h1, h2, h3, p {
+    color: #333;
+}
+
+/* Box model */
+section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #aac1c3;
+
+}
+
+/* Layouts */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Typography */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Advanced topics - Animation */
+mark {
+    display: inline-block;
+    background-color: rgb(204, 167, 155);
+    transition: background-color 0.3s ease;
+}
+
+mark:hover {
+    background-color: rgb(194, 187, 103);
+}
+
+/* Advanced topics - Transition for navigation */
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/* Advanced topics - Canvas border animation */
+#myCanvas:hover {
+    border-color: #ff6600;
+    transition: border-color 0.3s ease;
+}
+
+/* Footer styling */
+footer {
+    background-color: #90bfc3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 2;
+    left: 0;
+    transition: opacity 0.5s ease;
+}
+body::after {
+    content: "";
+    display: block;
+    height: 5px; /* Adjust this value based on your footer's height */
+}
+body.show-footer footer {
+    opacity: 1;
+
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+section video,
+section audio {
+    display: block;
+    margin: 0 auto;
+    
+}
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    input {
+        width: calc(100% - 16px); /* Adjusting for padding */
+    }
+}
+/* Responsive design - Adjustments for small screens */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}
