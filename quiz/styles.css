@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.baraheader{
+    background-color: rgba(233, 227, 227, 0.701);
+
+}
+header{
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#logo1{
+  float: left; 
+  padding: 10px;
+
+}
+nav{
+    margin-top: 10px;
+    font-size: 20;
+}
+nav li{
+    display: inline;
+    margin-left: 20px;
+
+}
+nav ul{
+    gap: 20px;
+}
+.login-btn{
+    float: right;
+    margin-left: 20px;
+    margin-right: -130px;
+    padding: 10px 20px;
+    background-color: rgb(254, 248, 248);
+    color: #38dc46;
+    border: none;
+    cursor: pointer;
+}
+.signup-btn{
+    float: right;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #38dc46;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.container2{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-top: 20px;
+
+}
+.years{
+    color: #38dc46;
+    font-size: 50px;
+    margin-left: 40px;
+}
+.lessons{
+    font-size: 60px;
+    margin-left: 40px;
+}
+.p1{
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.reg{
+    float: left;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #38dc46;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.clientscommunity{
+    margin-top: 50px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.container3{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+.learn{
+    float: left;
+    margin-left: 60px;
+    padding: 15px 30px;
+    background-color: #38dc46;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.h2{
+    font-size: 50px;
+}
+.p2{
+    font-size: 20px;
+}
+.achievements{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.container4{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+.customer{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+footer{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}

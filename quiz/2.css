@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px 0;
+    border-bottom: #ddd solid 1px;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    color: #333;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header .login-btn {
+    float: right;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero .register-btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.clients {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.clients h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.clients-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.manage-system {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.manage-system h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 30%;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.testimonial .learn-more-btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.statistics {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.statistics h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.stat {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 20%;
+}
+
+.design-footer {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.design-footer h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.design-footer .learn-more-btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-info {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border: none;
+}
+
+.newsletter .subscribe-btn {
+    padding: 10px 20px;
+    background: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
